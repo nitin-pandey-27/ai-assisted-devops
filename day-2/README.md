@@ -170,5 +170,7 @@ kubectl set image deployment <deployment-name> <container-name>=<new-image>
 
 **Iterate and refine – If the output isn’t ideal, adjust the prompt.**
 
+**Few shot prompting is widely choosen.**
+
 **Use CoT for complex tasks – Step-by-step reasoning improves accuracy.**
 
