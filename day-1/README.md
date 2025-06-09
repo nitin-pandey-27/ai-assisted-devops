@@ -84,5 +84,31 @@ NOTE: Input could be anything like google searches, some other algorithms etc.
       LLMs are trained with billions of input parameters like Traditional AI. 
       But Gen AI uses its own thinking based on the training before. 
 
+**What is Prompt Engineering ?**
+- LLM takes user input and generates text output
+- The user input is known as prompt
+- The efficient way to providing user input is prompt engineering
+- Eg. These two user inputs will be treated differently by LLMs
+- Generate a Kubernetes YAML manifest file
+- Generate kubernetes manifests file with NGINX as image, Pod Security Policies, Security Context, Resource Limitation, Namespace, Node Affinity, Image Credentials, Liveness and Readiness Checks.
+
+
+** What is AI Landscape for DevOps ?** 
+- Landscape means the list of AI tools that are required for DevOps
+- These are divided into 4 parts
+    - AI Chatbots like ChatGPT, Deepseek, Iilama (AI Chatbots can take user input and give some output but can not execute the task)
+    - AI Agents like Github Copilot, Bolt.new (AI Agents can perform the tasks. Agents can brainstrom and generate the plan as well. AI Agents can take user input and give some output and can also execute the task)
+    - AI Assitants like Github Copilot, Perplexity, Cursor.ai 
+    - Programming Lang. like Python, Fast API, Flask
+
 ---
+
+**Practical using AI Agent**
+1. Create a repo
+2. Write shell script
+3. Check CPU/Memory/Disk Space of a VM
+4. If values <=60% then it should be healthy
+5. Else Not healthy
+6. Explain why its healthy and not healthy if pass an argument "healthy"
+7. Create a good readme
 
