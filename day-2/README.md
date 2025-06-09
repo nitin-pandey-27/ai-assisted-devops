@@ -1,17 +1,17 @@
 # Mastering Prompt Engineering for DevOps
 
 - Prompt engineering is the **art of crafting instructions to get the most accurate and helpful responses from AI models**.
-**- LLM works as User Input --> AI (LLM) --> Output**
-**- User Input is the prompt. The better prompt you will provide, the better and accurate results you will get.**
+- **LLM works as User Input --> AI (LLM) --> Output**
+- **User Input is the prompt. The better prompt you will provide, the better and accurate results you will get.**
 - In this guide, you'll learn how to master prompt engineering using the following techniques, with DevOps-related examples:
 
-- NOTE: 
+**- NOTE: 
 - A good prompt will reduce the cost of running the LLM Model significantly. Hence, it is suitable for the org. to better use prompt engineering.
 - All AI Models works on API calls. Those API Calls include TOKENS.
 - The API Call costs depends on the number of TOKENS.
 - With good prompt engineering, we can reduce the TOTAL NUMBER OF TOKEN in the API calls which will reduce the Costing.
 - https://ai.google.dev/gemini-api/docs/pricing 
-
+**
 ## Zero-Shot Prompting
 
 In zero-shot prompting, the AI is asked to generate a response without any prior examples or context. It relies entirely on the AI’s general understanding of the task.
