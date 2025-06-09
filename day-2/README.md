@@ -1,6 +1,16 @@
 # Mastering Prompt Engineering for DevOps
 
-Prompt engineering is the art of crafting instructions to get the most accurate and helpful responses from AI models. In this guide, you'll learn how to master prompt engineering using the following techniques, with DevOps-related examples:
+- Prompt engineering is the **art of crafting instructions to get the most accurate and helpful responses from AI models**.
+**- LLM works as User Input --> AI (LLM) --> Output**
+**- User Input is the prompt. The better prompt you will provide, the better and accurate results you will get.**
+- In this guide, you'll learn how to master prompt engineering using the following techniques, with DevOps-related examples:
+
+- NOTE: 
+- A good prompt will reduce the cost of running the LLM Model significantly. Hence, it is suitable for the org. to better use prompt engineering.
+- All AI Models works on API calls. Those API Calls include TOKENS.
+- The API Call costs depends on the number of TOKENS.
+- With good prompt engineering, we can reduce the TOTAL NUMBER OF TOKEN in the API calls which will reduce the Costing.
+- https://ai.google.dev/gemini-api/docs/pricing 
 
 ## Zero-Shot Prompting
 
@@ -98,7 +108,7 @@ kubectl scale deployment nginx --replicas=5
 
 CoT prompting encourages the AI to "think step-by-step" to improve the accuracy of complex responses.
 
-Example 1: Debug a Failing Shell Script Step-by-Step
+Example 1: Debug a Failing Shell Script **Step-by-Step**
 
 ```
 Prompt:
@@ -109,7 +119,7 @@ My shell script is failing. Here is the script:
 mkdir -p /backup
 cp /var/logs/* /backup/
 
-It shows a "permission denied" error. How can I fix it? Please explain step-by-step.
+It shows a "permission denied" error. How can I fix it? **Please explain step-by-step.**
 
 Response:
 
@@ -154,11 +164,11 @@ kubectl set image deployment <deployment-name> <container-name>=<new-image>
 
 ✅ Best Practices for Prompt Engineering
 
-Be clear and specific – The more specific the prompt, the better the output.
+**Be clear and specific – The more specific the prompt, the better the output.**
 
-Use context – Provide background information or examples when needed.
+**Use context – Provide background information or examples when needed.**
 
-Iterate and refine – If the output isn’t ideal, adjust the prompt.
+**Iterate and refine – If the output isn’t ideal, adjust the prompt.**
 
-Use CoT for complex tasks – Step-by-step reasoning improves accuracy.
+**Use CoT for complex tasks – Step-by-step reasoning improves accuracy.**
 
