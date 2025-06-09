@@ -16,11 +16,11 @@ Traditional AI relies on **structured data, pre-defined rules, and predictive mo
  ### NOTES: 
  
 **Predictive**
-**Trained on historical data OR Works only on pre-trained scenario** 
-**Gives output based on historical data**
-**No thinking of its own without any historical data**
-**Cannot generate insights beyond structured input data**
-**Input could be - Only structured data**
+- **Trained on historical data OR Works only on pre-trained scenario**
+- **Gives output based on historical data**
+- **No thinking of its own without any historical data**
+- **Cannot generate insights beyond structured input data**
+- **Input could be - Only structured data**
 
 **Use Case in DevOps** 
 1. To predict events
@@ -46,13 +46,13 @@ Generative AI (Gen AI) leverages **large language models (LLMs)** to analyze, su
   - Adaptable to new/unseen failure patterns.
  
    ### NOTES:
-  **Generative AI (Gen AI)  means it generates output based on some user input** 
-  **It generates some output based on some user input. Input --> AI --> Output (Text,Image,Videos)** 
-  **Input could be - some user written text, log files, any unstructured or structured data**
-  **Output could be text, images, videos**
-  **LLM - Large Language Model - if the output is text then it uses LLM**
-  **No training of historical data is required**
-  **Good for human intelligence and more user friendly**
+  - **Generative AI (Gen AI)  means it generates output based on some user input**
+  - **It generates some output based on some user input. Input --> AI --> Output (Text,Image,Videos)**
+  - **Input could be - some user written text, log files, any unstructured or structured data**
+  - **Output could be text, images, videos**
+  - **LLM - Large Language Model - if the output is text then it uses LLM**
+  - **No training of historical data is required**
+  - **Good for human intelligence and more user friendly**
 
 ---
 
@@ -78,6 +78,7 @@ A Large Language Model (LLM) is an
 These models use **deep learning techniques**, particularly **transformers (like GPT, BERT, or LLaMA)**, to **recognize patterns, predict words, and generate human-like responses**.
 
 **INPUT --> LLM --> Training**
+
 NOTE: Input could be anything like google searches, some other algorithms etc. 
       Generative AI uses LLMs for text based output. 
       LLMs are trained with billions of input parameters like Traditional AI. 
