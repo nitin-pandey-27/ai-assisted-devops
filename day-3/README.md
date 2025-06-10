@@ -35,7 +35,7 @@ A GenAI powered tool that generates optimized Dockerfiles based on programming l
 
 ## 📋 Prerequisites
 
-### Installing Ollama
+### Installing Ollama and select which MODEL to run
 
 1. **Download and Install Ollama**
    ```bash
@@ -63,14 +63,39 @@ A GenAI powered tool that generates optimized Dockerfiles based on programming l
    ollama run llama3.2:1b
    ```
 
-## 🚀 Project Setup
+## 🚀 Project Setup or Setup of Python Environment 
 
-1. **Create Virtual Environment**
+1. **Create Virtual Environment. VENV are like VMs running on same host machine for Python. All the packages within a VENV will be separated from other VENV.**
    ```bash
    python3 -m venv venv
+      - m venv - to start virtual environment
+      - venv   - name of virtual environment 
    source venv/bin/activate  # On Linux/MacOS
+      - venv - name of virtual environment
+      - activate venv 
    # or
    .\venv\Scripts\activate  # On Windows
+   ```
+
+   ```bash
+   python -m venv my_env
+   This creates a directory my_env containing: A Python interpreter / A site-packages directory for installed libraries / Activation scripts for different shells
+
+   source my_env/bin/activate
+   Activating the Virtual Environment. Once activated, the environment's name appears in the terminal prompt, indicating that it is active. 
+   Virtual environments are not portable. If moved to another location, they may break. It is recommended to recreate the environment instead
+   Always activate the correct environment before working on a project to avoid dependency issues
+
+   pip install <package_name>
+   After activation, use pip to install packages:
+
+   deactivate
+   To exit the virtual environment, simply run
+
+
+   rm -rf my_env
+   To delete a virtual environment, deactivate it and remove its directory:
+   
    ```
 
 2. **Install Dependencies**
