@@ -1,3 +1,34 @@
+# 🐳 What is LLM ? 
+
+- LLM Large Language Model
+- https://aws.amazon.com/what-is/large-language-model/
+        - 
+- Backbone of Generative AI
+- Can perform Text Based Output generation
+- 2 types
+- Local or Self Hosted
+        - LLMs run within our local environment
+        - Meta - llama
+        - Deepseek -
+        - Pros and Cons
+            - Good Security
+            - Need to setup & manage infrastrcuture 
+  
+- Cloud Hosted
+        - Hosted by companies like OpenAI , Google (Gemini),
+        - Requires API Keys / Token to connect with them and call the APIs
+        - Pros and Cons
+            - Not secured because its over internet
+            - Costly in terms of API calls (Charges based on TOKENS - These TOKEN are the combination of TOTAL WORDS (Both input and output words)).
+            - No need to setup and manage infrastrcuture
+
+- Local LLM 
+        - Use OLLAMA
+        - ollama is repository of LLM Models.
+        - It is like dockerhub for storing LLM models
+        - Also, provides CLI to manage and install LLM Models
+        - https://github.com/ollama/ollama
+
 # 🐳 Dockerfile Generator
 
 A GenAI powered tool that generates optimized Dockerfiles based on programming language input. This project uses Ollama with the Llama3 model to create Dockerfiles following best practices.
@@ -18,11 +49,18 @@ A GenAI powered tool that generates optimized Dockerfiles based on programming l
 2. **Start Ollama Service**
    ```bash
    ollama serve
+
+   ollama start
    ```
 
-3. **Pull Llama3 Model**
+3. **Pull Llama3 Model. This will pull the model like #docker pull <image>. This command wont start the model like #docker start --image <some-image>**
    ```bash
    ollama pull llama3.2:1b
+   ```
+
+4. **Start Llama3 Model. This will start the model. Time it takes to start the model will differ based on the GPU availability. Once you start it you can use it as Text Based Gen AI**
+   ```bash
+   ollama run llama3.2:1b
    ```
 
 ## 🚀 Project Setup
