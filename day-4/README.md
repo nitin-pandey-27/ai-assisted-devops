@@ -11,7 +11,8 @@
 - OpenAI01 --> API calls
 
   Q. How to run Deepseek AI ?
-  - download ollama and install it 
+  - download ollama and install it
+  ```
   # ollama pull deepseek-r1:1.5b
   # ollama run deepseek-r1:1.5b
   # lsof -i -P -n | grep <process_name>
@@ -19,7 +20,9 @@
   
   # curl http://localhost:11434 --> by default ollama starts on 11434 port number
   NOTE: 1.5b refer to parameters on which these models were trained. 1.5b means 1.5 billion parameters.
+  ```
 
+  ```
   # Download https://chatboxai.app/
   # chmod +x Chatbox......AppImage
   # sudo app install libfuse2
@@ -28,7 +31,8 @@
 
   # Settings --> Model Provider --> Ollama --> Add the UI , deepseek-r1:1.5b as model --> Apply & Save
   # New Chat --> Search Model --> Select deepseek-r1:1.5b
-
+  NOTE: Above 2 steps may change depends on the version of chatbox.AppImage 
+  ```
   
     libfuse --> allows user space application to interact with the file system. 
   - Open settings and select deepseek-r1 model with the localhost URL
