@@ -11,7 +11,8 @@
 - OpenAI01 --> API calls
 
   Q. How to run Deepseek AI ?
-  - download ollama and install it
+  - download ollama and install it. Please refer day-3 for more details.
+  - pull the deepseek model and run it 
   ```
   # ollama pull deepseek-r1:1.5b
   # ollama run deepseek-r1:1.5b
