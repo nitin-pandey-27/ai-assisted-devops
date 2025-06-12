@@ -1,6 +1,24 @@
 # AI Assisted Shell Scripting
 
 - No additional notes is required. Everything is covered as part of the video.
+- Use the self hosted LLM model to write the script
+- That is AI Assisted Shell Scripting
+- The shell commands changes rarely hence there is no way LLM Model will provide an outdated commands
+- Prompt Engineering is Important
+    - make sure latest commands
+    - make sure latest OS
+    - make sure secured shell scripts
+ 
+  - AI Pair Programming - Write your code with AI to avoid mistakes. Like writing the code along with a senior watching your code.
+ 
+  - Visual Studio Code --> Install Github Copilot Extension (AI Pair Programming  and AI Chat features )
+ 
+  - Select some piece of line and right click to select explain from copilot
+ 
+  - OTHER AI TOOLS similar to Github Copilot
+ 
+  - cursor AI tools - AI Code Editor
+  
 
 
 # Deepseek AI with CHATBOX.AppImage
