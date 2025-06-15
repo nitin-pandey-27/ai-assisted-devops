@@ -30,8 +30,25 @@ NOTE: The command is "docker model" for Docker Model Runner.
 Q. How to pull a model and run the model ?
 ANS.
 - Select the model to run "https://hub.docker.com/u/ai"
-# docker model pull ai/deepseek-r1-distill-llama
+# docker model pull ai/deepseek-r1-distill-llama    --> This will pull and start docker model 
 # docker model run ai/deepseek-r1-distill-llama
+
+- Example of pull command
+#docker model pull ai/deepseek-r1-distill-llama
+latest: Pulling from docker/model-runner Digest: sha256:2b06fa65d2c72af24838d07ebaa93e248ed9d1cadbabb68f0a784d038841fd9f
+Status: Image is up to date for docker/model-runner:latest
+
+Successfully pulled docker/model-runner:latest
+Starting model runner container docker-model-runner...
+Downloaded: 1964.86 MB
+
+- Inspect a model 
+# docker model inspect ai/deepseek-r1-distill-llama
+- Check the logs
+# docker model logs
+- List the available models that can be run with the Docker Model Runner
+# docker model list 
+
 
 
 Q. Publish a model ?
