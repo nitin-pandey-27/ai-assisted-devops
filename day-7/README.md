@@ -91,3 +91,33 @@ Crew devops-ai-project created successfully!
 
 ```
 
+
+## CREW AI WITH META QUEST PROJECT FOR DOCUMENTATION 
+```
+# git clone https://github.com/crewAIInc/crewAI-examples.git
+# cd crewAI-examples/meta-quest-example
+# ls -lrth
+total 668K
+-rw-r--r-- 1 root root 2.0K Jun 15 23:26 README.md
+drwxr-xr-x 3 root root 4.0K Jun 15 23:26 src
+-rw-r--r-- 1 root root  577 Jun 15 23:26 pyproject.toml
+-rw-r--r-- 1 root root 649K Jun 15 23:26 uv.lock
+drwxr-xr-x 2 root root 4.0K Jun 15 23:27 knowledge
+
+# cd knowledge  --> COPY the PDF files required in this location.
+
+# cd ../src/meta_quest_knowledge/config --> Edit tasks.yaml and agents.yaml files to change the name of the expert.
+
+# cd src/meta_quest_knowledge  --> Edit crew.py and replace sdk_expert at relevant location.
+
+# cd crewAI-examples/meta_quest_knowledge --> Goto main project folder and execute
+# pip install uv
+# vi pyproject.toml  --> Edit meta_quest_Knowledge
+# crewai install
+# crewai run
+
+```
+
+
+
+
